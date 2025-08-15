@@ -1,9 +1,14 @@
 import Avatar from '../../components/Avatar'
 import Paragrafo from '../../components/Paragrafo'
 import Titulo from '../../components/Titulo'
+
 import { BotaoTema, Descricao, SideBarContainer } from './styles'
 
-const Sidebar = () => (
+type Props = {
+  trocaTema: () => void
+}
+
+const Sidebar = (props: Props) => (
   <aside>
     <SideBarContainer>
       <Avatar />
@@ -15,7 +20,7 @@ const Sidebar = () => (
       <Paragrafo tipo="principal" fontSize={10}>
         Email:Igor.viana560@gmail.com Telefone: 81 99281-4280
       </Paragrafo>
-      <BotaoTema>Trocar tema</BotaoTema>
+      <BotaoTema onClick={props.trocaTema}>Trocar tema</BotaoTema>
     </SideBarContainer>
   </aside>
 )

@@ -6,10 +6,17 @@ const Sobre = () => (
   <section>
     <Titulo fontSize={16}>Sobre mim</Titulo>
     <Paragrafo tipo="principal">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet,
-      aspernatur necessitatibus voluptatibus mollitia explicabo soluta
-      consequatur ad iure dolores laborum repellat animi consequuntur libero,
-      saepe pariatur esse possimus!
+      Sou Igor Viana Viegas, desenvolvedor apaixonado por tecnologia e resolução
+      de problemas. Tenho experiência no desenvolvimento de aplicações web
+      utilizando diferentes linguagens e frameworks, sempre buscando escrever um
+      código limpo, eficiente e escalável. Meu objetivo é evoluir constantemente
+      como profissional, contribuindo para projetos que impactem positivamente
+      pessoas e empresas. Tenho como ambição alcançar o nível de desenvolvedor
+      sênior, atuando em projetos desafiadores e colaborando com equipes que
+      valorizam inovação, aprendizado contínuo e boas práticas de
+      desenvolvimento. Vejo cada desafio como uma oportunidade de crescimento e
+      acredito que a combinação entre dedicação, curiosidade e trabalho em
+      equipe é o que constrói resultados de excelência.
     </Paragrafo>
     <GithubSecao>
       <img src="https://github-readme-stats.vercel.app/api?username=igorvv11&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
